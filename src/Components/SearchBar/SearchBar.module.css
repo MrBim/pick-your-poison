@@ -1,0 +1,12 @@
+.main {
+  width: calc(100% - 20px);
+  margin: 10px;
+}
+
+.searchInput {
+  width: 80%;
+}
+
+.searchButton {
+  width: 20%;
+}
