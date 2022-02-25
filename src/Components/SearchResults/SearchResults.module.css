@@ -1,0 +1,7 @@
+@media (min-width: 700px) {
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+}

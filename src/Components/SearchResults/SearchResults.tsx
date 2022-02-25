@@ -2,6 +2,7 @@ import React, { useMemo } from "react";
 import { useQuery } from "react-query";
 import { getCocktails } from "../../Scripts/network-functions";
 import ResultCard from "../ResultCard/ResultCard";
+import styles from './SearchResults.module.css';
 
 type Card = {
     idDrink: string;
@@ -24,7 +25,7 @@ const SearchResults = ({ searchFor }: Props) => {
   console.log('cocktails', cocktails)
   if (error) return <h2>an unknown error has occurred</h2>;
   return (
-    <div>
+    <div className={styles.main}>
       {cocktails && cocktails.map((it: Card) => (
           <ResultCard card={it} key={it.idDrink} />
       ))}

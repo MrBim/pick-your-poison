@@ -2,6 +2,7 @@
   border: 1px solid black;
   margin: 20px;
   padding: 10px;
+  background-color: #f5deb380;
 }
 
 .imageContainer {
@@ -25,4 +26,20 @@
   width: 90%;
   margin: 10px 5%;
   text-align: center;
+}
+
+@media (min-width: 700px) {
+  .main {
+    width: calc(50% - 40px);
+  }
+}
+@media (min-width: 1024px) {
+  .main {
+    width: calc(33.333% - 40px);
+  }
+}
+@media (min-width: 1200px) {
+  .main {
+    width: calc(25% - 40px);
+  }
 }
