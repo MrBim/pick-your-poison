@@ -15,7 +15,7 @@ type Props = {
 };
 
 const SearchResults = ({ searchFor }: Props) => {
-  const { data, error } = useQuery("drink search", () =>
+  const { data, error } = useQuery(["drink search", searchFor], () =>
     getCocktails(searchFor)
   );
   const cocktails = useMemo(() => {
