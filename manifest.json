@@ -1,6 +1,6 @@
 {
   "short_name": "Pick your poison",
-  "name": "Create React App Sample",
+  "name": "A simple cocktail recipe finder",
   "icons": [
     {
       "src": "favicon.ico",
