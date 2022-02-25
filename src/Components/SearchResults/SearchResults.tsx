@@ -4,12 +4,6 @@ import { getCocktails } from "../../Scripts/network-functions";
 import ResultCard from "../ResultCard/ResultCard";
 import styles from './SearchResults.module.css';
 
-type Card = {
-    idDrink: string;
-    strDrink: string;
-    strDrinkThumb: string;
-}
-
 type Props = {
   searchFor: string;
 };

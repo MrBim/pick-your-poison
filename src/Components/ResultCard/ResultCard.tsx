@@ -2,12 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./ResultCard.module.css";
 
-type Card = {
-  idDrink: string;
-  strDrink: string;
-  strDrinkThumb: string;
-};
-
 type Props = {
   card: Card;
 };
@@ -19,7 +13,7 @@ const ResultCard = ({ card }: Props) => {
         <h2 className={styles.drinkName}>{card.strDrink}</h2>
       </div>
       <div className={styles.imageContainer}>
-        <img className={styles.image} src={card.strDrinkThumb} />
+        <img className={styles.image} src={card.strDrinkThumb} alt={card.strDrink}/>
       </div>
       <div>
         <Link className={styles.drinkLink} to={`/recipe/${card.idDrink}`}>See Recipe</Link>

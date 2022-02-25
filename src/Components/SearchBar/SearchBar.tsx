@@ -1,6 +1,5 @@
 import React, {
   Dispatch,
-  KeyboardEvent,
   SetStateAction,
   useMemo,
   useState,
@@ -8,10 +7,6 @@ import React, {
 import { useQuery } from "react-query";
 import { getIngredients } from "../../Scripts/network-functions";
 import styles from "./SearchBar.module.css";
-
-type Ingredient = {
-  strIngredient1: string;
-}
 
 type Props = {
   setSearchTerm: Dispatch<SetStateAction<string>>;
