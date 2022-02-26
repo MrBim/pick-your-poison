@@ -1,6 +1,7 @@
 .main {
   width: calc(100% - 20px);
   margin: 10px;
+  display: flex;
 }
 
 .searchInput {
