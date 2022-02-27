@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/pick-your-poison/static/css/main.3e456e56.css",
-    "main.js": "/pick-your-poison/static/js/main.71cdcc9b.js",
+    "main.css": "/pick-your-poison/static/css/main.49fd074d.css",
+    "main.js": "/pick-your-poison/static/js/main.ae384ae5.js",
     "static/js/787.8f2bdb40.chunk.js": "/pick-your-poison/static/js/787.8f2bdb40.chunk.js",
     "static/media/drinks.jpg": "/pick-your-poison/static/media/drinks.e428c9cb725f229ea03b.jpg",
     "index.html": "/pick-your-poison/index.html",
-    "main.3e456e56.css.map": "/pick-your-poison/static/css/main.3e456e56.css.map",
-    "main.71cdcc9b.js.map": "/pick-your-poison/static/js/main.71cdcc9b.js.map",
+    "main.49fd074d.css.map": "/pick-your-poison/static/css/main.49fd074d.css.map",
+    "main.ae384ae5.js.map": "/pick-your-poison/static/js/main.ae384ae5.js.map",
     "787.8f2bdb40.chunk.js.map": "/pick-your-poison/static/js/787.8f2bdb40.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e456e56.css",
-    "static/js/main.71cdcc9b.js"
+    "static/css/main.49fd074d.css",
+    "static/js/main.ae384ae5.js"
   ]
 }
