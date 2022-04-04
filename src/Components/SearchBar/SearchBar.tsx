@@ -29,19 +29,10 @@ const SearchBar = ({ setSearchTerm }: Props) => {
   const handleSearchClick = () => {
     setSearchTerm(inputValue.value);
   };
+
   if (error) return <h6>there has been an error, oops</h6>;
   return (
     <div className={styles.main}>
-      {/* <select
-        className={styles.searchInput}
-        value={inputValue}
-        onChange={(e) => setInputValue(e.currentTarget.value)}
-      >
-        <option disabled value='' > - Pick your poison - </option>
-        {ingredients && ingredients.map((it: Ingredient) => (
-          <option key={it.strIngredient1} value={it.strIngredient1}>{it.strIngredient1}</option>
-        ))}
-      </select> */}
       <div style={{ width: "80%" }}>
         <Select
           value={inputValue}

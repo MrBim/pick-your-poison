@@ -6,7 +6,7 @@ type Props = {
   card: Card;
 };
 
-const ResultCard = ({ card }: Props) => {
+const ResultCard = ({ card }: Props): JSX.Element => {
   return (
     <div className={styles.main}>
         <div>
