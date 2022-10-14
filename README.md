@@ -1,4 +1,4 @@
-you can view this page at [https://mrbim.github.io/pick-your-poison/] (https://mrbim.github.io/pick-your-poison/)
+you can view this page at [pick-your-poison](https://mrbim.github.io/pick-your-poison/)
 
 
 # Getting Started with Create React App
