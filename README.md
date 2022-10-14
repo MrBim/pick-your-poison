@@ -1,3 +1,6 @@
+you can view this page at [https://mrbim.github.io/pick-your-poison/] (https://mrbim.github.io/pick-your-poison/)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
